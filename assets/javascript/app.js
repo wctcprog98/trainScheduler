@@ -30,7 +30,7 @@ $(".submit").on("click", function () {
   frequency = $("#freq").val().trim();
 
 // Reference recommendations object in your Firebase database
-  var recommendations = firebase.database().ref("recommendations");
+  var recommendations = firebase.database().ref("Train Data");
   
   //push data to firebase
   recommendations.push({
