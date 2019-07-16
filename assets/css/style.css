@@ -1,10 +1,32 @@
 
 .jumbotron{
     text-align: center; 
+    background-color: blue; 
 }
 
-.form
+/* .form
 {
     width: 100%;
+} */
+
+.header{
+    background-color: blue; 
+    width: 100%; 
+    color: white; 
+    /* margin: 50px 50px 50px 50px;  */
 }
 
+.card-header{
+    /* margin-top: 20px;  */
+    background-color: blue; 
+}
+.tableContent{
+    margin-left: 100px; 
+}
+h5{
+    margin: auto; 
+}
+.form-group{
+    color: black; 
+    
+}
